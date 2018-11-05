@@ -1,0 +1,3 @@
+An integral part of every kernel is the multithreading module. This module implements multithreading using timesharing.
+The module also includes preemption using interrupt routines coming in from hardware generated interrupts such as the keyboard, as well as a semaphore based synchronization mechanism between threads.
+This module is programmed for the Intel 8086 processor using C++98 and the BCC compiler.
